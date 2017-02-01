@@ -14,5 +14,7 @@
 # limitations under the License.
 
 neutron_plugin_type: ml2.dragonflow
+neutron_plugin_base:
+  - df-l3
 
 nova_console_type: novnc

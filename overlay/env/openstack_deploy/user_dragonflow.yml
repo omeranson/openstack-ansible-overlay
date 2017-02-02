@@ -16,7 +16,5 @@
 dragonflow_external_network_bridge: br-vlan
 
 neutron_plugin_type: ml2.dragonflow
-neutron_plugin_base:
-  - df-l3
 
 nova_console_type: novnc
